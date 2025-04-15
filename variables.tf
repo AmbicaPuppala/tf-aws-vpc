@@ -10,4 +10,10 @@ variable "environment" {
 }
 variable "common_tags" {
     type = map
+    # default = {}
+}
+
+variable "vpc_tags" {
+   
+    default = {}
 }
